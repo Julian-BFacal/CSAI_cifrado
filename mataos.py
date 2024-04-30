@@ -121,11 +121,12 @@ def read_file(file_path):
         print(f"Error: File '{file_path}' not found.")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python read_file.py <file_path>")
+    args = sys.argv[1:]
+    if len(args) != 2:
+        print("Usage: python mataos.py <file_path>")
         sys.exit(1)
 
-    file_path = sys.argv[1]
+    file_path = args[1]
     read_file(file_path)
 
 
