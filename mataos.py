@@ -99,7 +99,6 @@ def separar(text,n):
         Clave+=ABC[pos]
 
     print("A clave é", Clave)
-    #print("A clave é ",Clave," e o texto está en ",leng)
 
 
 
@@ -122,11 +121,11 @@ def read_file(file_path):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    if len(args) != 2:
+    if len(args) != 1:
         print("Usage: python mataos.py <file_path>")
         sys.exit(1)
 
-    file_path = args[1]
+    file_path = args[0]
     read_file(file_path)
 
 
