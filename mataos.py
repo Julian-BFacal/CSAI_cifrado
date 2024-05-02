@@ -98,7 +98,7 @@ def separar(text,n):
                 leng="Francés"
         Clave+=ABC[pos]
 
-    print("A clave é", Clave)
+    print(Clave)
 
 
 
