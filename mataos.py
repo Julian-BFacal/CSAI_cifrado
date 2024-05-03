@@ -21,8 +21,6 @@ FR_REL_FREQ = { 'A': 0.07636,'B': 0.00901,'C': 0.03260,'D': 0.03669,'E': 0.14715
                 'P': 0.02521,'Q': 0.01362,'R': 0.06693,'S': 0.07948,'T': 0.07244,'U': 0.06311,'V': 0.01838,'W': 0.00049,
                 'X': 0.00427,'Y': 0.00128,'Z': 0.00326}
 
-CastLet="EAOSNR"
-
 def createDictionary(letters):
     ABC.clear()
     for i in range(0,len(letters)):
