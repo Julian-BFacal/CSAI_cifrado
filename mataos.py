@@ -119,11 +119,11 @@ def read_file(file_path):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    if len(args) != 1:
+    if len(args) != 2:
         print("Usage: python mataos.py <file_path>")
         sys.exit(1)
 
-    file_path = args[0]
+    file_path = args[1]
     read_file(file_path)
 
 
